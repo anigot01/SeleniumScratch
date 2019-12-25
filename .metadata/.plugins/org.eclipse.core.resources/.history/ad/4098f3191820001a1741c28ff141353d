@@ -1,0 +1,10 @@
+package com.testNG;
+
+public class BasicAnnotationsInTestNG {
+	
+	public void test1()
+	{
+		
+	}
+
+}

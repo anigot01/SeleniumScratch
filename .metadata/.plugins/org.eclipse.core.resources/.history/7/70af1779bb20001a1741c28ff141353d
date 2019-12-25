@@ -1,0 +1,25 @@
+package com.testNG;
+
+import org.testng.annotations.Test;
+
+public class MyTestClass3 extends BasicAnnotationsWithOutMethod {
+	
+	@Test
+
+	  public void myTestMethod5() {
+
+	    System.out.println("myTestMethod4");
+
+	  }
+
+	 
+
+	  @Test
+
+	  public void myTestMethod6() {
+
+	    System.out.println("myTestMethod5");
+
+	  }
+
+}

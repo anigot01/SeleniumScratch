@@ -1,0 +1,26 @@
+package com.testNG;
+
+import org.testng.annotations.Test;
+
+public class DependsOnMethodTestNG {
+	
+	
+	@Test
+	public void test()
+	{
+		System.out.println("This is Test");
+	}
+	
+	@Test
+	public void test1()
+	{
+		System.out.println("This is Test1");
+	}
+	
+	@Test
+	public void test2()
+	{
+		System.out.println("This is Test2");
+	}
+
+}

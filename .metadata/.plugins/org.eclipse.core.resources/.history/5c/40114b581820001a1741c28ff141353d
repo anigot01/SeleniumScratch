@@ -1,0 +1,48 @@
+package com.testNG;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+
+public class BasicAnnotationsInTestNG {
+	
+	
+	@BeforeSuite
+	public void test1()
+	{
+		
+	}
+
+	@BeforeTest
+	public void test2()
+	{
+		
+	}
+	
+	@BeforeClass
+	public void test3()
+	{
+		
+	}
+	
+	
+	public void test4()
+	{
+		
+	}
+	
+	public void test5()
+	{
+		
+	}
+	
+	public void test6()
+	{
+		
+	}
+	
+	public void test7()
+	{
+		
+	}
+}

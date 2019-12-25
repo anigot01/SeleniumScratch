@@ -1,0 +1,9 @@
+package com.testNG;
+
+public class AssertionInTestNG {
+
+	public void test() {
+
+	}
+
+}

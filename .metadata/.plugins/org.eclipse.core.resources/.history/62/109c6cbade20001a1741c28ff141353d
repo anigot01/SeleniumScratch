@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<groups>
+		<run>
+			<include name="Sanity"></include>
+		</run>
+	</groups>
+	
+	<test name="Groups in TestNG">
+    <classes>
+      <class name="com.testNG.GroupsInTestNG"/>
+     </classes>
+  </test>
+
+	<test name="Test1">
+		<classes>
+			<class name="com.testNG.MyTestClass2" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class name="com.testNG.MyTestClass2" />
+		</classes>
+	</test>
+
+	<test name="Test3">
+		<classes>
+			<class name="com.testNG.MyTestClass3" />
+		</classes>
+	</test>
+
+
+	<test name="Test4">
+		<classes>
+			<class name="com.testNG.MyTestClass1" />
+			<class name="com.testNG.MyTestClass2" />
+			<class name="com.testNG.MyTestClass3" />
+		</classes>
+	</test>
+
+	<test name="Test5">
+		<classes>
+			<class name="com.testNG.MyTestClass1" />
+			<class name="com.testNG.MyTestClass2" />
+			<class name="com.testNG.MyTestClass3" />
+		</classes>
+	</test>
+
+	<!-- //In above Example -->
+	<!-- //Before Suite will execute only once -->
+	<!-- //Before test executes 5 times since we have 5 Test as above -->
+	<!-- //Before Class will execute 9 times since we have 9 class files -->
+
+
+
+
+</suite> <!-- Suite -->

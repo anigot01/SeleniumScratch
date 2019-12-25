@@ -1,0 +1,23 @@
+package com.testNG;
+
+public class GroupsInTestNG {
+	
+	public void Test()
+	{
+		
+	}
+	
+	
+	public void Test()
+	{
+		
+	}
+	
+	
+	
+	public void Test()
+	{
+		
+	}
+
+}
